@@ -1,3 +1,51 @@
 body {
-    font-family: 'Sans-Serif', monospace;
+    font-family: sans-serif;
+}
+
+#main-container {
+    float: left;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#about-me-container {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#project-container {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.data {
+    width: 40%;
+    margin-right: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#portrait {
+    width: 500px;
+    height: 500px;
+}
+
+.list-container {
+    display: flex;
+    width: 50%;
+}
+
+.list-container ul {
+    width: 50%;
+    list-style-position: inside;
 }
